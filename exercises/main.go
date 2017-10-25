@@ -69,7 +69,7 @@ func exercise6() {
 // Sum of multiples of 3 or 5 below 1000
 func exercise7() {
 	sum := 0
-	for i := 3; i <= 100; i++ {
+	for i := 0; i < 1000; i++ {
 		if i%3 == 0 {
 			sum += i
 			continue
