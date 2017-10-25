@@ -5,12 +5,12 @@ import "fmt"
 // refactor this into Clean Code after course is complete
 
 func main() {
-	//exercise1()
-	//exercise2()
-	//exercise3()
-	//exercise4()
-	//exercise5()
-	//exercise6()
+	exercise1()
+	exercise2()
+	exercise3()
+	exercise4()
+	exercise5()
+	exercise6()
 	exercise7()
 }
 
@@ -21,7 +21,8 @@ func exercise1() {
 
 // Say hello to my little friend
 func exercise2() {
-	fmt.Println("Hello, my name is Dylan")
+	name := "Dylan"
+	fmt.Println("Hello", name)
 }
 
 // Print user's name
@@ -29,7 +30,7 @@ func exercise3() {
 	fmt.Println("Enter your name:")
 	var name string
 	fmt.Scan(&name)
-	fmt.Printf("Hello %v\n", name)
+	fmt.Println("Hello", name)
 }
 
 // Do modulus division on 2 user-provided numbers
@@ -40,7 +41,7 @@ func exercise4() {
 	fmt.Println("Enter a larger integer:")
 	var large int
 	fmt.Scan(&large)
-	fmt.Printf("%v mod %v is %v.", large, small, large%small)
+	fmt.Println(large, "mod", small, "is", large%small)
 }
 
 // Print all even integers between 1 and 100
