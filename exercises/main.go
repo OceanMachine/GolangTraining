@@ -54,10 +54,9 @@ func exercise5() {
 // Classic FizzBuzz problem
 func exercise6() {
 	for i := 1; i <= 100; i++ {
-		if i%3 == 0 {
-			if i%5 == 0 {
-				fmt.Println("FizzBuzz")
-			}
+		if i%15 == 0 {
+			fmt.Println("FizzBuzz")
+		} else if i%3 == 0 {
 			fmt.Println("Fizz")
 		} else if i%5 == 0 {
 			fmt.Println("Buzz")
