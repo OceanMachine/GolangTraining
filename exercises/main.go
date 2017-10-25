@@ -77,5 +77,5 @@ func exercise7() {
 			sum += i
 		}
 	}
-	fmt.Printf("The sum is %v.", sum)
+	fmt.Println("The sum is", sum)
 }
